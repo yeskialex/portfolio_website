@@ -76,12 +76,12 @@ export function AboutSection({ data = aboutData }: AboutSectionProps) {
             {[...data.techStacks, ...data.techStacks].map((tech, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-32 h-20 md:w-40 md:h-24 bg-secondary rounded-xl md:rounded-2xl border border-border flex items-center justify-center p-4 md:p-6 hover:border-accent transition-colors"
+                className="flex-shrink-0 w-32 h-20 md:w-40 md:h-24 bg-white rounded-xl md:rounded-2xl border border-gray-200 flex items-center justify-center p-4 md:p-6 hover:border-accent transition-colors"
               >
                 <img
                   src={tech.logo || "/placeholder.svg"}
                   alt={tech.name}
-                  className="w-full h-full object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
                 />
               </div>
             ))}
