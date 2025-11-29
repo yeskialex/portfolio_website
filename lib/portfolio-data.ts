@@ -113,8 +113,8 @@ export const portfolioData = {
     {
       title: 'Social Community App',
       category: 'App Development',
-      image: 'silso.mov',
-      video: 'silso.mov',
+      image: 'silso.mp4',
+      video: 'silso.mp4',
       description: 'Collaborative task manager with real-time updates',
       tech: ['React', 'Firebase', 'TypeScript'],
       liveUrl: 'https://example.com',
@@ -123,8 +123,8 @@ export const portfolioData = {
     {
       title: 'Hiking Tracker App',
       category: 'App Development',
-      image: 'hiking_tracker_app.mov',
-      video: 'hiking_tracker_app.mov',
+      image: 'hiking_tracker_app.mp4',
+      video: 'hiking_tracker_app.mp4',
       description: 'Analytics dashboard with data visualization',
       tech: ['React', 'D3.js', 'Express'],
       liveUrl: 'https://example.com',
@@ -133,8 +133,8 @@ export const portfolioData = {
     {
       title: 'Child Progress Tracker App',
       category: 'App Development',
-      image: 'suksok.mov',
-      video: 'suksok.mov',
+      image: 'suksok.mp4',
+      video: 'suksok.mp4',
       description: 'Secure mobile banking application',
       tech: ['React Native', 'Node.js', 'MongoDB'],
       liveUrl: 'https://example.com',
