@@ -9,7 +9,7 @@ export const profileData = {
   languages: ['English', 'Indonesian', 'Korean'],
   social: {
     github: 'https://github.com/yeskialex',
-    twitter: 'https://twitter.com/johndoe',
+    linkedin: 'https://linkedin.com/in/yeskialex',
     instagram: 'https://instagram.com/yeskialex',
   },
 }
