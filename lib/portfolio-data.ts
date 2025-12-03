@@ -64,6 +64,8 @@ export const aboutData = {
     { name: 'Node.js', logo: 'nodejslogo.png' },
     { name: 'Flutter', logo: 'flutterlogoo.png' },
     { name: 'Spring Boot', logo: 'springbootlogo.png' },
+    { name: 'MongoDB', logo: 'mongodb.png' },
+    { name: 'Firebase', logo: 'firebase.png' },
   ],
 }
 

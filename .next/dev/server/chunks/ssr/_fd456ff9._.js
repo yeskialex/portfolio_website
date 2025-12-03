@@ -17,7 +17,7 @@ __turbopack_context__.s([
 const profileData = {
     name: 'Yehezkiel (Yeski) Alexander',
     title: 'Full-Stack Developer',
-    avatar: '/profile.jpg',
+    avatar: 'profile.jpg',
     email: 'yeskialex@gmail.com',
     phone: '+82 10-3360-1171',
     birthday: 'December 1, 2002',
@@ -61,17 +61,17 @@ const aboutData = {
     ],
     currentProjects: [
         {
-            image: '/project-thumbnail-1.jpg',
+            image: 'project-thumbnail-1.jpg',
             title: 'Social Community App',
             description: 'A Flutter-based cross-platform mobile application dedicated to finding communities to help with recovering from failure particularly in the competitive Korean society.'
         },
         {
-            image: '/project-thumbnail-2.jpg',
+            image: 'project-thumbnail-2.jpg',
             title: 'Foreigner Documentation App',
             description: 'Developing a cross-platform mobile application with easy functions to apply for bank account, phone number, and other important documentations for foreigners in South Korea.'
         },
         {
-            image: '/project-thumbnail-3.jpg',
+            image: 'project-thumbnail-3.jpg',
             title: 'Financial Tracker',
             description: 'Creating a web-based financial tracker with specialized functions to track day to day budget using MongoDB, Node.js, and React.'
         }
@@ -79,27 +79,27 @@ const aboutData = {
     techStacks: [
         {
             name: 'React',
-            logo: '/reactlogo.png'
+            logo: 'reactlogo.png'
         },
         {
             name: 'Next.js',
-            logo: '/nextjs-logo.svg'
+            logo: 'nextjs-logo.svg'
         },
         {
             name: 'TypeScript',
-            logo: '/typescript-logo.svg'
+            logo: 'typescript-logo.svg'
         },
         {
             name: 'Node.js',
-            logo: '/nodejslogo.png'
+            logo: 'nodejslogo.png'
         },
         {
             name: 'Flutter',
-            logo: '/flutterlogoo.png'
+            logo: 'flutterlogoo.png'
         },
         {
             name: 'Spring Boot',
-            logo: '/springbootlogo.png'
+            logo: 'springbootlogo.png'
         }
     ]
 };
@@ -151,7 +151,7 @@ const portfolioData = {
         {
             title: 'Financial Tracker Website',
             category: 'Web Development',
-            image: '/modern-ecommerce-website.png',
+            image: 'modern-ecommerce-website.png',
             description: 'Full-stack e-commerce solution with payment integration',
             tech: [
                 'Next.js',
@@ -164,8 +164,8 @@ const portfolioData = {
         {
             title: 'Social Community App',
             category: 'App Development',
-            image: '/silso.mov',
-            video: '/silso.mov',
+            image: 'silso.mov',
+            video: 'silso.mov',
             description: 'Collaborative task manager with real-time updates',
             tech: [
                 'React',
@@ -178,8 +178,8 @@ const portfolioData = {
         {
             title: 'Hiking Tracker App',
             category: 'App Development',
-            image: '/hiking_tracker_app.mov',
-            video: '/hiking_tracker_app.mov',
+            image: 'hiking_tracker_app.mov',
+            video: 'hiking_tracker_app.mov',
             description: 'Analytics dashboard with data visualization',
             tech: [
                 'React',
@@ -192,8 +192,8 @@ const portfolioData = {
         {
             title: 'Child Progress Tracker App',
             category: 'App Development',
-            image: '/suksok.mov',
-            video: '/suksok.mov',
+            image: 'suksok.mov',
+            video: 'suksok.mov',
             description: 'Secure mobile banking application',
             tech: [
                 'React Native',
@@ -206,7 +206,7 @@ const portfolioData = {
         {
             title: 'Flutter AI Chatbot',
             category: 'Web Development',
-            image: '/flutter-ai-chatbot.png',
+            image: 'flutter-ai-chatbot.png',
             description: 'Intelligent companion for Flutter development with weekly learning modules',
             tech: [
                 'Next.js',
