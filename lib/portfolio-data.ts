@@ -93,6 +93,12 @@ export const resumeData = {
       description:
         'Developed and maintained multiple client projects using both modern web and app technologies. Working closely with the client to accomplish their goals and needs as precisely as possible.',
     },
+    {
+      title: 'Programming Teaching Assistant',
+      period: '2023 — Present',
+      description:
+        'TA for programming professor in Handong University for Python and Web Programming class.',
+    },
   ],
   skills: {
     'Languages': ['JavaScript', 'TypeScript', 'Python', 'Java', 'Swift', 'Dart', 'C', 'C++'],

@@ -133,6 +133,11 @@ const resumeData = {
             title: 'Free-Lance App Developer',
             period: '2024 — Present',
             description: 'Developed and maintained multiple client projects using both modern web and app technologies. Working closely with the client to accomplish their goals and needs as precisely as possible.'
+        },
+        {
+            title: 'Programming Teaching Assistant',
+            period: '2023 — Present',
+            description: 'TA for programming professor in Handong University for Python and Web Programming class.'
         }
     ],
     skills: {
