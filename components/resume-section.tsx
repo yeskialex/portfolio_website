@@ -1,4 +1,4 @@
-import { BookOpen, Briefcase } from 'lucide-react'
+import { BookOpen, Briefcase, Award } from 'lucide-react'
 import { resumeData } from '@/lib/portfolio-data'
 
 interface ResumeSectionProps {
@@ -52,19 +52,38 @@ export function ResumeSection({ data = resumeData }: ResumeSectionProps) {
       {/* Skills */}
       <div>
         <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">My Skills</h3>
-        <div className="space-y-5 md:space-y-6">
-          {data.skills.map((skill, index) => (
-            <div key={index}>
-              <div className="flex justify-between mb-2">
-                <span className="text-xs md:text-sm font-medium text-foreground">{skill.name}</span>
-                <span className="text-xs md:text-sm text-muted-foreground">{skill.level}%</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {Object.entries(data.skills).map(([category, skillList]) => (
+            <div key={category}>
+              <h4 className="text-sm md:text-base font-semibold text-accent mb-3">{category}</h4>
+              <div className="flex flex-wrap gap-2">
+                {skillList.map((skill, index) => (
+                  <span
+                    key={index}
+                    className="px-3 py-1 text-xs md:text-sm bg-secondary border border-border rounded-full text-foreground hover:border-accent transition-colors"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
-              <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-accent rounded-full transition-all duration-1000 ease-out"
-                  style={{ width: `${skill.level}%` }}
-                />
-              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Awards and Certificates */}
+      <div>
+        <div className="flex items-center gap-2 md:gap-3 mb-6">
+          <Award className="w-5 h-5 md:w-6 md:h-6 text-accent" />
+          <h3 className="text-xl md:text-2xl font-bold text-foreground">Awards & Certificates</h3>
+        </div>
+        <div className="space-y-4">
+          {data.awardsAndCertificates.map((item, index) => (
+            <div key={index} className="relative pl-5 md:pl-6 pb-6 border-l-2 border-border last:pb-0">
+              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-accent" />
+              <h4 className="text-base md:text-lg font-semibold text-foreground mb-1">{item.title}</h4>
+              <p className="text-xs md:text-sm text-accent mb-1">{item.issuer} • {item.date}</p>
+              <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">{item.description}</p>
             </div>
           ))}
         </div>

@@ -1,4 +1,119 @@
-[00:00:00.433] Server  LOG      ✓ Ready in 266ms
-[00:14:57.079] Server  LOG      ✓ Compiled in 70ms
-[00:17:09.862] Server  LOG      ✓ Compiled in 71ms
-[00:17:19.346] Server  LOG      ✓ Compiled in 23ms
+[00:00:00.510] Server  LOG      ✓ Ready in 383ms
+[00:01:09.195] Server  LOG      ✓ Compiled in 39ms
+[00:02:25.775] Server  LOG      ✓ Compiled in 48ms
+[00:02:27.718] Server  LOG      ✓ Compiled in 28ms
+[00:03:08.929] Server  LOG      ✓ Compiled in 37ms
+[00:03:12.808] Server  LOG      ✓ Compiled in 29ms
+[00:03:15.025] Server  LOG      ✓ Compiled in 21ms
+[00:03:17.248] Server  LOG      ✓ Compiled in 29ms
+[00:05:34.650] Server  LOG      ✓ Compiled in 44ms
+[00:05:38.485] Server  LOG      ✓ Compiled in 37ms
+[00:05:42.604] Server  LOG      ✓ Compiled in 34ms
+[00:05:44.947] Server  LOG      ✓ Compiled in 30ms
+[00:05:47.690] Server  LOG      ✓ Compiled in 21ms
+[00:05:52.789] Server  LOG      ✓ Compiled in 28ms
+[00:07:27.442] Server  LOG      ✓ Compiled in 52ms
+[00:07:43.403] Browser ERROR   uncaughtError: ReferenceError: handleSubmit is not defined
+[00:07:47.091] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:47.135] Server  LOG      ✓ Compiled in 32ms
+[00:08:40.458] Server  LOG      ✓ Compiled in 25ms
+[00:08:43.781] Server  LOG      ✓ Compiled in 25ms
+[00:08:45.545] Server  LOG      ✓ Compiled in 42ms
+[00:08:47.584] Server  LOG      ✓ Compiled in 26ms
+[00:09:05.313] Server  LOG      ✓ Compiled in 33ms
+[00:09:25.091] Server  LOG      ✓ Compiled in 22ms
+[00:09:32.360] Server  LOG      ✓ Compiled in 36ms
+[00:09:35.004] Server  LOG      ✓ Compiled in 36ms
+[00:10:34.466] Server  LOG      ✓ Compiled in 42ms
+[00:10:34.930] Browser ERROR   ./lib/portfolio-data.ts:21:1
+Parsing ecmascript source code failed
+  19 |     "I am a versatile software developer with experience in a fast-paced environment especially in early stage development. I am a web and app developer in multiple startups dealing with the whole life-cycle of the development process from production until deployment. I am a well-rounded developer that can wear multiple hats to solve problems and get the job done efficiently and well.
+  20 |
+> 21 | "
+     | ^
+  22 |   ],
+  23 |   services: [
+  24 |     {
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./lib/portfolio-data.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/portfolio-data.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:10:34.930] Browser ERROR   ./lib/portfolio-data.ts:21:1
+Parsing ecmascript source code failed
+  19 |     "I am a versatile software developer with experience in a fast-paced environment especially in early stage development. I am a web and app developer in multiple startups dealing with the whole life-cycle of the development process from production until deployment. I am a well-rounded developer that can wear multiple hats to solve problems and get the job done efficiently and well.
+  20 |
+> 21 | "
+     | ^
+  22 |   ],
+  23 |   services: [
+  24 |     {
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./lib/portfolio-data.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./lib/portfolio-data.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:10:58.414] Server  LOG      ✓ Compiled in 34ms
+[00:11:22.348] Server  LOG      ✓ Compiled in 32ms
+[00:11:25.920] Server  LOG      ✓ Compiled in 34ms
+[00:11:31.017] Server  LOG      ✓ Compiled in 39ms
+[00:12:33.194] Server  LOG      ✓ Compiled in 24ms
+[00:12:33.930] Browser ERROR   uncaughtError: TypeError: data.skills.map is not a function
+[00:13:00.711] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:00.775] Server  LOG      ✓ Compiled in 36ms
+[00:13:55.901] Server  LOG      ✓ Compiled in 31ms
+[00:13:57.834] Server  LOG      ✓ Compiled in 26ms
+[00:14:00.788] Server  LOG      ✓ Compiled in 28ms
+[00:14:06.197] Server  LOG      ✓ Compiled in 24ms
+[00:14:07.754] Server  LOG      ✓ Compiled in 31ms
+[00:14:11.427] Server  LOG      ✓ Compiled in 22ms
+[00:14:20.643] Server  LOG      ✓ Compiled in 31ms
+[00:14:26.329] Server  LOG      ✓ Compiled in 19ms
+[00:14:35.340] Server  LOG      ✓ Compiled in 25ms
+[00:14:58.338] Server  LOG      ✓ Compiled in 17ms
+[00:15:00.521] Server  LOG      ✓ Compiled in 26ms
+[00:15:09.127] Server  LOG      ✓ Compiled in 26ms
+[00:15:11.741] Server  LOG      ✓ Compiled in 26ms
+[00:15:13.878] Server  LOG      ✓ Compiled in 22ms
+[00:15:17.274] Server  LOG      ✓ Compiled in 27ms
+[00:15:28.652] Server  LOG      ✓ Compiled in 30ms
+[00:15:39.179] Server  LOG      ✓ Compiled in 36ms
+[00:15:55.003] Server  LOG      ✓ Compiled in 29ms
+[00:16:18.056] Server  LOG      ✓ Compiled in 24ms
+[00:16:25.047] Server  LOG      ✓ Compiled in 26ms
+[00:16:39.014] Server  LOG      ✓ Compiled in 41ms
+[00:16:58.376] Server  LOG      ✓ Compiled in 25ms
+[00:17:03.242] Server  LOG      ✓ Compiled in 22ms
+[00:18:14.139] Server  LOG      ✓ Compiled in 32ms
+[00:19:04.410] Server  LOG      ✓ Compiled in 27ms
+[00:19:14.422] Server  LOG      ✓ Compiled in 26ms
+[00:19:17.565] Server  LOG      ✓ Compiled in 22ms
+[00:19:22.402] Server  LOG      ✓ Compiled in 29ms
+[00:19:25.441] Server  LOG      ✓ Compiled in 34ms
+[00:19:30.096] Server  LOG      ✓ Compiled in 28ms
+[00:19:31.552] Server  LOG      ✓ Compiled in 27ms
+[00:19:33.745] Server  LOG      ✓ Compiled in 28ms
+[00:19:36.160] Server  LOG      ✓ Compiled in 31ms
+[00:19:39.367] Server  LOG      ✓ Compiled in 28ms
+[00:19:41.978] Server  LOG      ✓ Compiled in 34ms
+[00:19:45.158] Server  LOG      ✓ Compiled in 36ms
+[00:19:46.274] Server  LOG      ✓ Compiled in 31ms
+[00:19:51.130] Server  LOG      ✓ Compiled in 21ms
+[00:19:54.565] Server  LOG      ✓ Compiled in 28ms
+[00:20:09.777] Server  LOG      ✓ Compiled in 28ms

@@ -16,16 +16,16 @@ __turbopack_context__.s([
 ]);
 const profileData = {
     name: 'Yehezkiel (Yeski) Alexander',
-    title: 'Full-Stack Developer',
+    title: 'Software Developer',
     avatar: 'profile.jpg',
     email: 'yeskialex@gmail.com',
     phone: '+82 10-3360-1171',
     birthday: 'December 1, 2002',
     location: 'Pohang, South Korea',
     languages: [
-        'English',
-        'Indonesian',
-        'Korean'
+        'English (Fluent)',
+        'Indonesian (Native)',
+        'Korean (Intermediate)'
     ],
     social: {
         github: 'https://github.com/yeskialex',
@@ -35,7 +35,7 @@ const profileData = {
 };
 const aboutData = {
     description: [
-        "I'm a Full-Stack Developer from Indonesia currently based in Pohang, South Korea, specializing in web and mobile development creating innovative digital solutions. I enjoy turning complex problems into simple and intuitive applications."
+        "I am a versatile software developer with experience in a fast-paced environment especially in early stage development. I am a web and app developer in multiple startups dealing with the whole life-cycle of the development process from production until deployment. I am a well-rounded developer that can wear multiple hats to solve problems and get the job done efficiently and well."
     ],
     services: [
         {
@@ -82,10 +82,6 @@ const aboutData = {
             logo: 'reactlogo.png'
         },
         {
-            name: 'Next.js',
-            logo: 'nextjs-logo.svg'
-        },
-        {
             name: 'TypeScript',
             logo: 'typescript-logo.svg'
         },
@@ -100,6 +96,22 @@ const aboutData = {
         {
             name: 'Spring Boot',
             logo: 'springbootlogo.png'
+        },
+        {
+            name: 'MongoDB',
+            logo: 'mongodb.png'
+        },
+        {
+            name: 'Firebase',
+            logo: 'firebase.png'
+        },
+        {
+            name: 'Swift',
+            logo: 'swift.png'
+        },
+        {
+            name: 'MySQL',
+            logo: 'mysql.svg'
         }
     ]
 };
@@ -123,22 +135,69 @@ const resumeData = {
             description: 'Developed and maintained multiple client projects using both modern web and app technologies. Working closely with the client to accomplish their goals and needs as precisely as possible.'
         }
     ],
-    skills: [
+    skills: {
+        'Languages': [
+            'JavaScript',
+            'TypeScript',
+            'Python',
+            'Java',
+            'Swift',
+            'Dart',
+            'C',
+            'C++'
+        ],
+        'Frontend': [
+            'React',
+            'Next.js',
+            'HTML/CSS',
+            'Tailwind CSS',
+            'Flutter'
+        ],
+        'Backend': [
+            'Node.js',
+            'Express',
+            'Spring Boot',
+            'REST APIs',
+            'GraphQL'
+        ],
+        'Database': [
+            'MongoDB',
+            'MySQL',
+            'PostgreSQL',
+            'Firebase'
+        ],
+        'Tools & Others': [
+            'Git',
+            'Docker',
+            'AWS',
+            'CI/CD',
+            'Agile/Scrum'
+        ]
+    },
+    awardsAndCertificates: [
         {
-            name: 'Frontend Development',
-            level: 95
+            title: 'Samsung Dream Scholarship Awardee',
+            issuer: 'Samsung Dream Foundation',
+            date: '2022-2025',
+            description: 'Fully-funded Scholarship for Outstanding International Students studying in South Korea.'
         },
         {
-            name: 'Backend Development',
-            level: 85
+            title: 'Full Cornerstone Scholarship',
+            issuer: 'Handong Global University',
+            date: '2021-2025',
+            description: 'Fully-funded Scholarship for International Students from developing countries in Handong Global University.'
         },
         {
-            name: 'Database Design',
-            level: 80
+            title: 'TOEFL - 113/120',
+            issuer: 'iBT TOEFL',
+            date: '2021',
+            description: 'English certificate displaying fluency in the language.'
         },
         {
-            name: 'App Development',
-            level: 80
+            title: 'UNITWIN Startup First Place Award',
+            issuer: 'Handong Global University UNITWIN Program',
+            date: '2023',
+            description: 'First place winner for innovative mobile app solution'
         }
     ]
 };
@@ -149,20 +208,20 @@ const portfolioData = {
     ],
     projects: [
         {
-            title: 'Financial Tracker Website',
+            title: 'Financial Tracker Website - Stash',
             category: 'Web Development',
-            image: 'modern-ecommerce-website.png',
+            image: 'finance.png',
             description: 'Full-stack e-commerce solution with payment integration',
             tech: [
                 'Next.js',
                 'Node.js',
                 'PostgreSQL'
             ],
-            liveUrl: 'https://example.com',
-            githubUrl: 'https://github.com/johndoe/ecommerce'
+            liveUrl: '',
+            githubUrl: 'https://github.com/yeskialex/portfolio'
         },
         {
-            title: 'Social Community App',
+            title: 'Social Community App - Silso',
             category: 'App Development',
             image: 'silso.mp4',
             video: 'silso.mp4',
@@ -176,7 +235,7 @@ const portfolioData = {
             githubUrl: 'https://github.com/SilSo-communityFromFailToOvercome/silso_main_dev'
         },
         {
-            title: 'Hiking Tracker App',
+            title: 'Hiking Tracker App - LessQ',
             category: 'App Development',
             image: 'hiking_tracker_app.mp4',
             video: 'hiking_tracker_app.mp4',
@@ -190,7 +249,7 @@ const portfolioData = {
             githubUrl: 'https://github.com/yeskialex/lessq'
         },
         {
-            title: 'Child Progress Tracker App',
+            title: 'Child Progress Tracker App - SsukSsok',
             category: 'App Development',
             image: 'suksok.mp4',
             video: 'suksok.mp4',
@@ -922,6 +981,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book-open.js [app-client] (ecmascript) <export default as BookOpen>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/briefcase.js [app-client] (ecmascript) <export default as Briefcase>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-client] (ecmascript) <export default as Award>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$portfolio$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/portfolio-data.ts [app-client] (ecmascript)");
 ;
 ;
@@ -1122,56 +1182,34 @@ function ResumeSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f$
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "space-y-5 md:space-y-6",
-                        children: data.skills.map((skill, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid grid-cols-1 md:grid-cols-2 gap-6",
+                        children: Object.entries(data.skills).map(([category, skillList])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex justify-between mb-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-xs md:text-sm font-medium text-foreground",
-                                                children: skill.name
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/resume-section.tsx",
-                                                lineNumber: 59,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-xs md:text-sm text-muted-foreground",
-                                                children: [
-                                                    skill.level,
-                                                    "%"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/resume-section.tsx",
-                                                lineNumber: 60,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                        className: "text-sm md:text-base font-semibold text-accent mb-3",
+                                        children: category
+                                    }, void 0, false, {
                                         fileName: "[project]/components/resume-section.tsx",
                                         lineNumber: 58,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "h-2 bg-secondary rounded-full overflow-hidden",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "h-full bg-accent rounded-full transition-all duration-1000 ease-out",
-                                            style: {
-                                                width: `${skill.level}%`
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/resume-section.tsx",
-                                            lineNumber: 63,
-                                            columnNumber: 17
-                                        }, this)
+                                        className: "flex flex-wrap gap-2",
+                                        children: skillList.map((skill, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "px-3 py-1 text-xs md:text-sm bg-secondary border border-border rounded-full text-foreground hover:border-accent transition-colors",
+                                                children: skill
+                                            }, index, false, {
+                                                fileName: "[project]/components/resume-section.tsx",
+                                                lineNumber: 61,
+                                                columnNumber: 19
+                                            }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/resume-section.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 59,
                                         columnNumber: 15
                                     }, this)
                                 ]
-                            }, index, true, {
+                            }, category, true, {
                                 fileName: "[project]/components/resume-section.tsx",
                                 lineNumber: 57,
                                 columnNumber: 13
@@ -1185,6 +1223,89 @@ function ResumeSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f$
             }, void 0, true, {
                 fileName: "[project]/components/resume-section.tsx",
                 lineNumber: 53,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center gap-2 md:gap-3 mb-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                                className: "w-5 h-5 md:w-6 md:h-6 text-accent"
+                            }, void 0, false, {
+                                fileName: "[project]/components/resume-section.tsx",
+                                lineNumber: 77,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "text-xl md:text-2xl font-bold text-foreground",
+                                children: "Awards & Certificates"
+                            }, void 0, false, {
+                                fileName: "[project]/components/resume-section.tsx",
+                                lineNumber: 78,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/resume-section.tsx",
+                        lineNumber: 76,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "space-y-4",
+                        children: data.awardsAndCertificates.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative pl-5 md:pl-6 pb-6 border-l-2 border-border last:pb-0",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-accent"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/resume-section.tsx",
+                                        lineNumber: 83,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                        className: "text-base md:text-lg font-semibold text-foreground mb-1",
+                                        children: item.title
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/resume-section.tsx",
+                                        lineNumber: 84,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs md:text-sm text-accent mb-1",
+                                        children: [
+                                            item.issuer,
+                                            " • ",
+                                            item.date
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/resume-section.tsx",
+                                        lineNumber: 85,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs md:text-sm text-muted-foreground leading-relaxed",
+                                        children: item.description
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/resume-section.tsx",
+                                        lineNumber: 86,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, index, true, {
+                                fileName: "[project]/components/resume-section.tsx",
+                                lineNumber: 82,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/components/resume-section.tsx",
+                        lineNumber: 80,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/resume-section.tsx",
+                lineNumber: 75,
                 columnNumber: 7
             }, this)
         ]
@@ -1610,27 +1731,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-client] (ecmascript) <export default as Send>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$portfolio$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/portfolio-data.ts [app-client] (ecmascript)");
-;
-var _s = __turbopack_context__.k.signature();
 'use client';
 ;
 ;
 ;
 function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$portfolio$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["contactData"] }) {
-    _s();
-    const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
-        name: '',
-        email: '',
-        message: ''
-    });
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        // Handle form submission
-        console.log('Form submitted:', formData);
-    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "space-y-6 md:space-y-8",
         children: [
@@ -1641,20 +1747,20 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 27,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-10 h-1 bg-accent rounded-full mb-6"
                     }, void 0, false, {
                         fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 28,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/contact-section-new.tsx",
-                lineNumber: 26,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1672,12 +1778,12 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                     title: "Office Location"
                 }, void 0, false, {
                     fileName: "[project]/components/contact-section-new.tsx",
-                    lineNumber: 32,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/contact-section-new.tsx",
-                lineNumber: 31,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1692,12 +1798,12 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                     className: "w-5 h-5 md:w-6 md:h-6 text-accent"
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact-section-new.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 46,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1708,7 +1814,7 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                         children: "Email"
                                     }, void 0, false, {
                                         fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 38,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1717,19 +1823,19 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                         children: data.email
                                     }, void 0, false, {
                                         fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 49,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 45,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1741,12 +1847,12 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                     className: "w-5 h-5 md:w-6 md:h-6 text-accent"
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact-section-new.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 61,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1756,7 +1862,7 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                         children: "Phone"
                                     }, void 0, false, {
                                         fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 53,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1765,19 +1871,19 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                         children: data.phone
                                     }, void 0, false, {
                                         fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 54,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 64,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 60,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1789,12 +1895,12 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                     className: "w-5 h-5 md:w-6 md:h-6 text-accent"
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact-section-new.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 76,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1804,7 +1910,7 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                         children: "Location"
                                     }, void 0, false, {
                                         fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 68,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1812,171 +1918,34 @@ function ContactSection({ data = __TURBOPACK__imported__module__$5b$project$5d2f
                                         children: data.location
                                     }, void 0, false, {
                                         fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 69,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 79,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 75,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/contact-section-new.tsx",
-                lineNumber: 44,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                onSubmit: handleSubmit,
-                className: "space-y-5 md:space-y-6",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                        htmlFor: "name",
-                                        className: "block text-sm font-medium text-foreground mb-2",
-                                        children: "Full Name"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 89,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "text",
-                                        id: "name",
-                                        value: formData.name,
-                                        onChange: (e)=>setFormData({
-                                                ...formData,
-                                                name: e.target.value
-                                            }),
-                                        className: "w-full px-4 md:px-5 py-3 md:py-3.5 bg-secondary border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-2 focus:ring-accent/20 focus:outline-none transition-all text-sm md:text-base",
-                                        placeholder: "John Doe",
-                                        required: true
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 92,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 88,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                        htmlFor: "email",
-                                        className: "block text-sm font-medium text-foreground mb-2",
-                                        children: "Email Address"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 103,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        type: "email",
-                                        id: "email",
-                                        value: formData.email,
-                                        onChange: (e)=>setFormData({
-                                                ...formData,
-                                                email: e.target.value
-                                            }),
-                                        className: "w-full px-4 md:px-5 py-3 md:py-3.5 bg-secondary border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-2 focus:ring-accent/20 focus:outline-none transition-all text-sm md:text-base",
-                                        placeholder: "john@example.com",
-                                        required: true
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/contact-section-new.tsx",
-                                        lineNumber: 106,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 102,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 87,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                htmlFor: "message",
-                                className: "block text-sm font-medium text-foreground mb-2",
-                                children: "Your Message"
-                            }, void 0, false, {
-                                fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 119,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                id: "message",
-                                rows: 6,
-                                value: formData.message,
-                                onChange: (e)=>setFormData({
-                                        ...formData,
-                                        message: e.target.value
-                                    }),
-                                className: "w-full px-4 md:px-5 py-3 md:py-3.5 bg-secondary border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-2 focus:ring-accent/20 focus:outline-none transition-all resize-none text-sm md:text-base",
-                                placeholder: "Write your message here...",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 122,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 118,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        type: "submit",
-                        className: "flex items-center justify-center gap-2 w-full md:w-auto px-6 md:px-8 py-3 md:py-3.5 bg-accent text-accent-foreground rounded-xl font-medium hover:shadow-lg hover:shadow-accent/20 hover:-translate-y-0.5 transition-all text-sm md:text-base",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"], {
-                                className: "w-4 h-4"
-                            }, void 0, false, {
-                                fileName: "[project]/components/contact-section-new.tsx",
-                                lineNumber: 137,
-                                columnNumber: 11
-                            }, this),
-                            "Send Message"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/contact-section-new.tsx",
-                        lineNumber: 133,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/contact-section-new.tsx",
-                lineNumber: 86,
+                lineNumber: 32,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/contact-section-new.tsx",
-        lineNumber: 25,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 }
-_s(ContactSection, "cRGivdu4kk0x+g1ddJGmIV4n560=");
 _c = ContactSection;
 var _c;
 __turbopack_context__.k.register(_c, "ContactSection");

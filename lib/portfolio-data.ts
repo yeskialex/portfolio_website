@@ -1,12 +1,12 @@
 export const profileData = {
   name: 'Yehezkiel (Yeski) Alexander',
-  title: 'Full-Stack Developer',
+  title: 'Software Developer',
   avatar: 'profile.jpg',
   email: 'yeskialex@gmail.com',
   phone: '+82 10-3360-1171',
   birthday: 'December 1, 2002',
   location: 'Pohang, South Korea',
-  languages: ['English', 'Indonesian', 'Korean'],
+  languages: ['English (Fluent)', 'Indonesian (Native)', 'Korean (Intermediate)'],
   social: {
     github: 'https://github.com/yeskialex',
     linkedin: 'https://linkedin.com/in/yeskialex',
@@ -16,7 +16,7 @@ export const profileData = {
 
 export const aboutData = {
   description: [
-    "I'm a Full-Stack Developer from Indonesia currently based in Pohang, South Korea, specializing in web and mobile development creating innovative digital solutions. I enjoy turning complex problems into simple and intuitive applications."
+    "I am a versatile software developer with experience in a fast-paced environment especially in early stage development. I am a web and app developer in multiple startups dealing with the whole life-cycle of the development process from production until deployment. I am a well-rounded developer that can wear multiple hats to solve problems and get the job done efficiently and well."
   ],
   services: [
     {
@@ -59,13 +59,15 @@ export const aboutData = {
   ],
   techStacks: [
     { name: 'React', logo: 'reactlogo.png' },
-    { name: 'Next.js', logo: 'nextjs-logo.svg' },
     { name: 'TypeScript', logo: 'typescript-logo.svg' },
     { name: 'Node.js', logo: 'nodejslogo.png' },
     { name: 'Flutter', logo: 'flutterlogoo.png' },
     { name: 'Spring Boot', logo: 'springbootlogo.png' },
     { name: 'MongoDB', logo: 'mongodb.png' },
     { name: 'Firebase', logo: 'firebase.png' },
+    { name: 'Swift', logo: 'swift.png' },
+    { name: 'MySQL', logo: 'mysql.svg' },
+
   ],
 }
 
@@ -92,11 +94,38 @@ export const resumeData = {
         'Developed and maintained multiple client projects using both modern web and app technologies. Working closely with the client to accomplish their goals and needs as precisely as possible.',
     },
   ],
-  skills: [
-    { name: 'Frontend Development', level: 95 },
-    { name: 'Backend Development', level: 85 },
-    { name: 'Database Design', level: 80 },
-    { name: 'App Development', level: 80 },
+  skills: {
+    'Languages': ['JavaScript', 'TypeScript', 'Python', 'Java', 'Swift', 'Dart', 'C', 'C++'],
+    'Frontend': ['React', 'Next.js', 'HTML/CSS', 'Tailwind CSS', 'Flutter'],
+    'Backend': ['Node.js', 'Express', 'Spring Boot', 'REST APIs', 'GraphQL'],
+    'Database': ['MongoDB', 'MySQL', 'PostgreSQL', 'Firebase'],
+    'Tools & Others': ['Git', 'Docker', 'AWS', 'CI/CD', 'Agile/Scrum'],
+  },
+  awardsAndCertificates: [
+    {
+      title: 'Samsung Dream Scholarship Awardee',
+      issuer: 'Samsung Dream Foundation',
+      date: '2022-2025',
+      description: 'Fully-funded Scholarship for Outstanding International Students studying in South Korea.'
+    },
+    {
+      title: 'Full Cornerstone Scholarship',
+      issuer: 'Handong Global University',
+      date: '2021-2025',
+      description: 'Fully-funded Scholarship for International Students from developing countries in Handong Global University.'
+    },
+    {
+      title: 'TOEFL - 113/120',
+      issuer: 'iBT TOEFL',
+      date: '2021',
+      description: 'English certificate displaying fluency in the language.'
+    },
+    {
+      title: 'UNITWIN Startup First Place Award',
+      issuer: 'Handong Global University UNITWIN Program',
+      date: '2023',
+      description: 'First place winner for innovative mobile app solution'
+    },
   ],
 }
 
@@ -104,16 +133,16 @@ export const portfolioData = {
   categories: ['App Development', 'Web Development'],
   projects: [
     {
-      title: 'Financial Tracker Website',
+      title: 'Financial Tracker Website - Stash',
       category: 'Web Development',
-      image: 'modern-ecommerce-website.png',
+      image: 'finance.png',
       description: 'Full-stack e-commerce solution with payment integration',
       tech: ['Next.js', 'Node.js', 'PostgreSQL'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/johndoe/ecommerce',
+      liveUrl: '',
+      githubUrl: 'https://github.com/yeskialex/portfolio',
     },
     {
-      title: 'Social Community App',
+      title: 'Social Community App - Silso',
       category: 'App Development',
       image: 'silso.mp4',
       video: 'silso.mp4',
@@ -123,7 +152,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/SilSo-communityFromFailToOvercome/silso_main_dev',
     },
     {
-      title: 'Hiking Tracker App',
+      title: 'Hiking Tracker App - LessQ',
       category: 'App Development',
       image: 'hiking_tracker_app.mp4',
       video: 'hiking_tracker_app.mp4',
@@ -133,7 +162,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/yeskialex/lessq',
     },
     {
-      title: 'Child Progress Tracker App',
+      title: 'Child Progress Tracker App - SsukSsok',
       category: 'App Development',
       image: 'suksok.mp4',
       video: 'suksok.mp4',
