@@ -1,5 +1,13 @@
 import { PenTool, Code, Smartphone, Zap, Database } from 'lucide-react'
 import { aboutData } from '@/lib/portfolio-data'
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel'
+import Autoplay from 'embla-carousel-autoplay'
 
 const iconMap = {
   Code,
@@ -51,42 +59,69 @@ export function AboutSection({ data = aboutData }: AboutSectionProps) {
         </div>
       </div>
 
-      {/* Current Projects with Marquee Animation */}
+      {/* Current Projects with Manual Swipe */}
       <div>
         <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Current Projects</h3>
-        <div className="relative overflow-hidden">
-          <div className="flex gap-3 md:gap-4 animate-marquee">
-            {[...data.currentProjects, ...data.currentProjects].map((project, index) => (
-              <div key={index} className="flex-shrink-0 w-72 md:w-80 p-4 md:p-6 bg-secondary rounded-xl md:rounded-2xl border border-border">
-                <div className="mb-3 md:mb-4">
-                  <h4 className="text-base md:text-lg font-semibold text-foreground mb-2">{project.title}</h4>
+        <Carousel
+          opts={{
+            align: 'start',
+            loop: true,
+          }}
+          plugins={[
+            Autoplay({
+              delay: 3000,
+              stopOnInteraction: false,
+              stopOnMouseEnter: true,
+            }),
+          ]}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-3 md:-ml-4">
+            {data.currentProjects.map((project, index) => (
+              <CarouselItem key={index} className="pl-3 md:pl-4 basis-72 md:basis-80">
+                <div className="p-4 md:p-6 bg-secondary rounded-xl md:rounded-2xl border border-border h-full hover:shadow-lg transition-all duration-300 ease-in-out hover:border-accent">
+                  <div className="mb-3 md:mb-4">
+                    <h4 className="text-base md:text-lg font-semibold text-foreground mb-2">{project.title}</h4>
+                  </div>
+                  <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">{project.description}</p>
                 </div>
-                <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">{project.description}</p>
-              </div>
+              </CarouselItem>
             ))}
-          </div>
-        </div>
+          </CarouselContent>
+        </Carousel>
       </div>
 
-      {/* Tech Stacks with Marquee Animation */}
+      {/* Tech Stacks with Manual Swipe */}
       <div>
         <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Tech Stacks</h3>
-        <div className="relative overflow-hidden py-4">
-          <div className="flex gap-4 md:gap-6 animate-marquee-slow">
-            {[...data.techStacks, ...data.techStacks].map((tech, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 w-32 h-20 md:w-40 md:h-24 bg-white rounded-xl md:rounded-2xl border border-gray-200 flex items-center justify-center p-4 md:p-6 hover:border-accent transition-colors"
-              >
-                <img
-                  src={tech.logo || "/placeholder.svg"}
-                  alt={tech.name}
-                  className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
-                />
-              </div>
+        <Carousel
+          opts={{
+            align: 'start',
+            loop: true,
+          }}
+          plugins={[
+            Autoplay({
+              delay: 2500,
+              stopOnInteraction: false,
+              stopOnMouseEnter: true,
+            }),
+          ]}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-16 md:-ml-20 py-4">
+            {data.techStacks.map((tech, index) => (
+              <CarouselItem key={index} className="pl-16 md:pl-20 basis-32 md:basis-40">
+                <div className="w-32 h-20 md:w-40 md:h-24 bg-white rounded-xl md:rounded-2xl border border-gray-200 flex items-center justify-center p-4 md:p-6 hover:border-accent hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out transform">
+                  <img
+                    src={tech.logo || "/placeholder.svg"}
+                    alt={tech.name}
+                    className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+              </CarouselItem>
             ))}
-          </div>
-        </div>
+          </CarouselContent>
+        </Carousel>
       </div>
     </div>
   )
